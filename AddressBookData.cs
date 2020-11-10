@@ -25,6 +25,11 @@ namespace AddressBookLINQ
             table.Columns.Add("Zip", typeof(string));
             table.Columns.Add("PhoneNumber", typeof(string));
             table.Columns.Add("Email", typeof(string));
+            ///UC3 Inserting Data into Table
+            table.Rows.Add("Ruthik", "Reddy", "8-47", "Ppm", "Chennnai", "509001", "89754180", "Ruthik.com");
+            table.Rows.Add("Ram", "Bantu", "Sun nagar", "Vizag", "Ap", "546489", "8570456737", "ram.com");
+            table.Rows.Add("Sidhharth", "Singh", "Srinavasa colony", "Hyd", "Telangana", "546362", "9878678593", "Siddhu.com");
+            table.Rows.Add("Axar", "Patel", "Electric", "Banglore", "Karnataka", "125445", "7206326427", "Axar.com");
         }
     }
 }
